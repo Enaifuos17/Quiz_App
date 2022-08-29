@@ -1,0 +1,34 @@
+1 - Create JSON object for questions                                            DONE
+
+2 - Start creating HTML markup + styling                                        DONE
+
+3 - Add dummy data (3mr bash makan for testing)                                 DONE
+
+4 - Create the styling                                                          DONE
+
+5 - Fetch number of questions from JSON object                                  IN PROGRESS
+
+6 - Show questions count + questions category                                   IN PROGRESS
+
+7 - Show the number of bullets depend on questions count                        IN PROGRESS
+
+8 - Set the number for the right and wrong answers                              IN PROGRESS
+
+9 - Create countdown timer                                                      IN PROGRESS
+
+10 - Fetch the questions from the JSON object                                   IN PROGRESS
+
+11 - Show first questions                                                       IN PROGRESS
+
+12 - Check answer and hide questions then show next one                         IN PROGRESS
+
+13 - If the time end, mark the question as wrong and show the next question     IN PROGRESS
+
+14 - Add class on bullet after answering the question                           IN PROGRESS
+
+15 - If questions finished show the result                                      IN PROGRESS
+
+# IDEAS
+-- Many JSON objects and choose language
+-- Add many questions and choose only 10 randomly
+-- Randomize the answers ()

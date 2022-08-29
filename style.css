@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #f3f3f3;
+  --bg-color2: #f8f8f8;
+  --color1: rgb(54, 139, 218);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.quiz-app {
+  margin: 20px auto;
+  width: 800px;
+  background-color: var(--bg-color);
+  padding: 15px;
+}
+
+.quiz-app .quiz-info {
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.quiz-app .quiz-info .category {
+  flex: 1;
+  /* bash ytafr9u  */
+}
+
+.quiz-app .quiz-info .category span {
+  font-weight: bold;
+}
+
+.quiz-app .quiz-info .count {
+  flex: 1;
+  text-align: right;
+}
+
+.quiz-app .quiz-info .count span {
+  font-weight: bold;
+}
+
+.quiz-app .quiz-area {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 15px;
+}
+
+.quiz-app .quiz-area h2 {
+  margin: 0;
+}
+
+.quiz-app .answrs-area {
+  background-color: #fff;
+  padding: 0 20px 20px;
+  /* mabghinash padding mn lfuu9 */
+}
+
+.quiz-app .answrs-area .answr {
+  background-color: var(--bg-color2);
+  padding: 15px;
+}
+
+/* mn ghit last child */
+.quiz-app .answrs-area .answr:not(:last-child) {
+  border-bottom: 1px solid #dfdfdf;
+}
+
+/* if input (radio type) is checked --> label li murah ---> color:... */
+.quiz-app .answrs-area .answr input[type="Radio"]:checked + label {
+  color: rgb(54, 139, 218);
+}
+
+.quiz-app .answrs-area .answr input {
+  cursor: pointer;
+}
+
+.quiz-app .answrs-area .answr label {
+  cursor: pointer;
+  font-weight: bold;
+  color: #777;
+  font-size: 14px;
+  margin-left: 5px;
+  /*  */
+  position: relative;
+  top: -1px;
+  /* kan kayban b7ala nazl shwiya */
+  /*  */
+}
+
+.quiz-app .submit-button {
+  background-color: var(--color1);
+  display: block;
+  width: 100%;
+  margin: auto;
+  margin-top: 15px;
+  padding: 10px 15px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  opacity: 0.8;
+  transition: 0.2s linear;
+}
+
+.quiz-app .submit-button:hover {
+  opacity: 1;
+}
+
+.quiz-app .submit-button:focus {
+  outline: none;
+}
+
+/* bullets */
+.quiz-app .bullets {
+  border-top: 1px solid var(--color1);
+  background-color: #fff;
+  display: flex;
+  padding: 20px;
+  margin-top: 15px;
+}
+
+.quiz-app .bullets .spans {
+  flex: 1;
+  display: flex;
+}
+
+.quiz-app .bullets .spans span {
+  width: 20px;
+  height: 20px;
+  background-color: #ddd;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.quiz-app .bullets .spans span.on {
+  background-color: var(--color1);
+}
+
+.quiz-app .results {
+  margin-top: 15px;
+}
+
+.quiz-app .results span {
+  font-weight: bold;
+}
+
+.quiz-app .results span.bad {
+  color: red;
+}
+
+.quiz-app .results span.not-bad {
+  color: orange;
+}
+
+.quiz-app .results span.good {
+  color: green;
+}
+
+.quiz-app .results span.very-good {
+  color: var(--color1);
+  opacity: 0.8;
+}
+
+.quiz-app .results span.perfect {
+  color: var(--color1);
+}
