@@ -5,6 +5,7 @@
 :root {
   --bg-color: #f3f3f3;
   --bg-color2: #f8f8f8;
+  /* --color1: rgb(13, 93, 168); */
   --color1: rgb(54, 139, 218);
 }
 
@@ -19,11 +20,27 @@ body {
   padding: 15px;
 }
 
+/* * ----- */
+@media (max-width: 767px) {
+  .quiz-app {
+    width: fit-content;
+  }
+}
+/* * ----- */
+
 .quiz-app .quiz-info {
   display: flex;
   background-color: #fff;
   padding: 20px;
 }
+
+/* * ----- */
+@media (max-width: 767px) {
+  .quiz-app .quiz-info {
+    padding: 10px;
+  }
+}
+/* * ----- */
 
 .quiz-app .quiz-info .category {
   flex: 1;
@@ -52,6 +69,14 @@ body {
 .quiz-app .quiz-area h2 {
   margin: 0;
 }
+
+/* * ----- */
+@media (max-width: 767px) {
+  .quiz-app .quiz-area h2 {
+    font-size: 20px;
+  }
+}
+/* * ----- */
 
 .quiz-app .answrs-area {
   background-color: #fff;
@@ -138,6 +163,15 @@ body {
   margin-right: 5px;
   border-radius: 50%;
 }
+
+/* * ----- */
+@media (max-width: 767px) {
+  .quiz-app .bullets .spans span {
+    width: 18px;
+    height: 18px;
+  }
+}
+/* * ----- */
 
 .quiz-app .bullets .spans span.on {
   background-color: var(--color1);
