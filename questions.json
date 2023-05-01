@@ -13,7 +13,7 @@
     "answr_2": "No Its For Anchor Tag <a>",
     "answr_3": "All Elements Has This Attribute",
     "answr_4": "Answer 1 And 3 Is Right",
-    "right_answr": "No Its For Anchor Tag <a>"
+    "right_answer": "No Its For Anchor Tag <a>"
   },
   {
     "title": "How Can We Make Element Text Bold",
@@ -51,8 +51,8 @@
     "title": "How We Specify Document Type Of HTML5 Page",
     "answr_1": "<DOCTYPE html>",
     "answr_2": "<DOCTYPE html5>",
-    "answr_4": "<!DOCTYPE html>",
-    "answr_3": "<!DOCTYPE html5>",
+    "answr_3": "<!DOCTYPE html>",
+    "answr_4": "<!DOCTYPE html5>",
     "right_answr": "<!DOCTYPE html>"
   },
   {

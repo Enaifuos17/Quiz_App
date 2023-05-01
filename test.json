@@ -1,0 +1,224 @@
+{
+  "html": [
+    {
+      "title": "Why We Use <br> Element",
+      "answr_1": "To Make Text Bold",
+      "answr_2": "To Make Text Italic",
+      "answr_3": "To Add Breakline",
+      "answr_4": "To Create Horizontal Line",
+      "right_answr": "To Add Breakline"
+    },
+    {
+      "title": "Is <img> Element Has Attribute href",
+      "answr_1": "Yes",
+      "answr_2": "No Its For Anchor Tag <a>",
+      "answr_3": "All Elements Has This Attribute",
+      "answr_4": "Answer 1 And 3 Is Right",
+      "right_answer": "No Its For Anchor Tag <a>"
+    },
+    {
+      "title": "How Can We Make Element Text Bold",
+      "answr_1": "Putting It Inside <b> Tag",
+      "answr_2": "Putting It Inside <strong> Tag",
+      "answr_3": "Customizing It With Font-Weight Property In CSS",
+      "answr_4": "All Answers Are Right",
+      "right_answr": "All Answers Are Right"
+    },
+    {
+      "title": "What Is The Right Hierarchy For Creating Part Of Page",
+      "answr_1": "<h2> Then <p> Then <h1> Then <p> Then <h3> Then <p> Then <img>",
+      "answr_2": "<h1> Then <p> Then <h3> Then <p> Then <h2> Then <p> Then <img>",
+      "answr_3": "<h2> Then <p> Then <h3> Then <p> Then <h1> Then <p> Then <img>",
+      "answr_4": "All Solutions Are Wrong",
+      "right_answr": "All Solutions Are Wrong"
+    },
+    {
+      "title": "How Can We Include External Page Inside Our HTML Page",
+      "answr_1": "By Using Include in HTML",
+      "answr_2": "By Using Load In HTML",
+      "answr_3": "By Using iFrame Tag",
+      "answr_4": "All Solutions Are Wrong",
+      "right_answr": "By Using iFrame Tag"
+    },
+    {
+      "title": "What Is The Tag That Not Exists in HTML",
+      "answr_1": "<object>",
+      "answr_2": "<basefont>",
+      "answr_3": "<abbr>",
+      "answr_4": "All Tags Are Exists in HTML",
+      "right_answr": "All Tags Are Exists in HTML"
+    },
+    {
+      "title": "How We Specify Document Type Of HTML5 Page",
+      "answr_1": "<DOCTYPE html>",
+      "answr_2": "<DOCTYPE html5>",
+      "answr_3": "<!DOCTYPE html>",
+      "answr_4": "<!DOCTYPE html5>",
+      "right_answr": "<!DOCTYPE html>"
+    },
+    {
+      "title": "What Is The Element Thats Not Exists in HTML5 Semantics",
+      "answr_1": "<article>",
+      "answr_2": "<section>",
+      "answr_3": "<blockquote>",
+      "answr_4": "<aside>",
+      "right_answr": "<blockquote>"
+    },
+    {
+      "title": "In HTML Can We Use This Way To Add Attributes",
+      "answr_1": "<div class='class-name'>",
+      "answr_2": "<div class=class-name>",
+      "answr_3": "<div class=\"class-name\">",
+      "answr_4": "All Are Right",
+      "right_answr": "All Are Right"
+    }
+  ],
+  "css": [
+    {
+      "title": "How To Change The Background Color To White",
+      "answr_1": "backgroundColor: white;",
+      "answr_2": "background-color: white;",
+      "answr_3": "Background Color: white;",
+      "answr_4": "All Answers Are Right",
+      "right_answr": "background-color: white;"
+    },
+    {
+      "title": "",
+      "answr_1": "",
+      "answr_2": "",
+      "answr_3": "",
+      "answr_4": "",
+      "right_answer": ""
+    },
+    {
+      "title": "",
+      "answr_1": "",
+      "answr_2": "",
+      "answr_3": "",
+      "answr_4": "",
+      "right_answr": ""
+    },
+    {
+      "title": "",
+      "answr_1": "",
+      "answr_2": "",
+      "answr_3": "",
+      "answr_4": "",
+      "right_answr": ""
+    },
+    {
+      "title": "",
+      "answr_1": "",
+      "answr_2": "",
+      "answr_3": "",
+      "answr_4": "",
+      "right_answr": ""
+    },
+    {
+      "title": "",
+      "answr_1": "",
+      "answr_2": "",
+      "answr_3": "",
+      "answr_4": "",
+      "right_answr": ""
+    },
+    {
+      "title": "",
+      "answr_1": "",
+      "answr_2": "",
+      "answr_3": "",
+      "answr_4": "",
+      "right_answr": ""
+    },
+    {
+      "title": "",
+      "answr_1": "",
+      "answr_2": "",
+      "answr_3": "",
+      "answr_4": "",
+      "right_answr": ""
+    },
+    {
+      "title": "",
+      "answr_1": "",
+      "answr_2": "",
+      "answr_3": "",
+      "answr_4": "",
+      "right_answr": ""
+    }
+  ],
+  "js": [
+    {
+      "title": "What Is The Extension For A JavaScript File",
+      "answr_1": ".jvs",
+      "answr_2": ".js",
+      "answr_3": ".javascript",
+      "answr_4": "All Answers Are Right",
+      "right_answr": ".js"
+    },
+    {
+      "title": "",
+      "answr_1": "",
+      "answr_2": "",
+      "answr_3": "",
+      "answr_4": "",
+      "right_answer": ""
+    },
+    {
+      "title": "",
+      "answr_1": "",
+      "answr_2": "",
+      "answr_3": "",
+      "answr_4": "",
+      "right_answr": ""
+    },
+    {
+      "title": "",
+      "answr_1": "",
+      "answr_2": "",
+      "answr_3": "",
+      "answr_4": "",
+      "right_answr": ""
+    },
+    {
+      "title": "",
+      "answr_1": "",
+      "answr_2": "",
+      "answr_3": "",
+      "answr_4": "",
+      "right_answr": ""
+    },
+    {
+      "title": "",
+      "answr_1": "",
+      "answr_2": "",
+      "answr_3": "",
+      "answr_4": "",
+      "right_answr": ""
+    },
+    {
+      "title": "",
+      "answr_1": "",
+      "answr_2": "",
+      "answr_3": "",
+      "answr_4": "",
+      "right_answr": ""
+    },
+    {
+      "title": "",
+      "answr_1": "",
+      "answr_2": "",
+      "answr_3": "",
+      "answr_4": "",
+      "right_answr": ""
+    },
+    {
+      "title": "",
+      "answr_1": "",
+      "answr_2": "",
+      "answr_3": "",
+      "answr_4": "",
+      "right_answr": ""
+    }
+  ]
+}

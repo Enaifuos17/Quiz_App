@@ -6,27 +6,27 @@
 
 4 - Create the styling                                                          DONE
 
-5 - Fetch number of questions from JSON object                                  IN PROGRESS
+5 - Fetch number of questions from JSON object                                  DONE
 
-6 - Show questions count + questions category                                   IN PROGRESS
+6 - Show questions count + questions category                                   DONE
 
-7 - Show the number of bullets depend on questions count                        IN PROGRESS
+7 - Show the number of bullets depend on questions count                        DONE
 
-8 - Set the number for the right and wrong answers                              IN PROGRESS
+8 - Set the number for the right and wrong answers                              DONE
 
-9 - Create countdown timer                                                      IN PROGRESS
+9 - Create countdown timer                                                      DONE
 
-10 - Fetch the questions from the JSON object                                   IN PROGRESS
+10 - Fetch the questions from the JSON object                                   DONE
 
-11 - Show first questions                                                       IN PROGRESS
+11 - Show first questions                                                       DONE
 
-12 - Check answer and hide questions then show next one                         IN PROGRESS
+12 - Check answer and hide questions then show next one                         DONE
 
-13 - If the time end, mark the question as wrong and show the next question     IN PROGRESS
+13 - If the time end, mark the question as wrong and show the next question     DONE
 
-14 - Add class on bullet after answering the question                           IN PROGRESS
+14 - Add class on bullet after answering the question                           DONE
 
-15 - If questions finished show the result                                      IN PROGRESS
+15 - If questions finished show the result                                      DONE
 
 # IDEAS
 -- Many JSON objects and choose language

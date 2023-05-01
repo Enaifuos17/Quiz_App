@@ -121,7 +121,7 @@ body {
 /* if input (radio type) is checked --> label li murah ---> color:... */
 .quiz-app .answrs-area .answr input[type="Radio"]:checked + label {
   /* color: rgb(54, 139, 218); */
-  color: rgb(0 92 200 / 70%);
+  color: rgb(0 92 200 / 80%);
 }
 
 .quiz-app .answrs-area .answr input {
@@ -131,7 +131,7 @@ body {
 .quiz-app .answrs-area .answr label {
   cursor: pointer;
   font-weight: bold;
-  color: #777;
+  color: #646464;
   font-size: 14px;
   margin-left: 5px;
   /*  */
@@ -253,6 +253,9 @@ footer {
   font-family: cursive;
   border-end-end-radius: 15px;
   border-start-start-radius: 15px;
+  /* position: fixed;
+  bottom: 0;
+  right: 50%; */
 }
 
 footer img {
