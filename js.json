@@ -1,0 +1,74 @@
+[
+  {
+    "title": "What Is The Extension For A JavaScript File",
+    "answr_1": ".jvs",
+    "answr_2": ".js",
+    "answr_3": ".javascript",
+    "answr_4": "All Answers Are Right",
+    "right_answr": ".js"
+  },
+  {
+    "title": "What does JavaScript do?",
+    "answr_1": "Adds interactivity to web pages",
+    "answr_2": "Creates server-side applications",
+    "answr_3": "Performs calculations",
+    "answr_4": "All Answers Are Right",
+    "right_answer": "Adds interactivity to web pages"
+  },
+  {
+    "title": "Which is the correct syntax for a JavaScript comment?",
+    "answr_1": "// This is a comment",
+    "answr_2": "<!-- This is a comment -->",
+    "answr_3": "'This is a comment'",
+    "answr_4": "/* This is a comment */",
+    "right_answr": "// This is a comment"
+  },
+  {
+    "title": "Which keyword is used to declare a variable in JavaScript?",
+    "answr_1": "var",
+    "answr_2": "let",
+    "answr_3": "const",
+    "answr_4": "All Answers Are Right",
+    "right_answr": "All Answers Are Right"
+  },
+  {
+    "title": "What is the result of the following expression: '5' + 5?",
+    "answr_1": "55",
+    "answr_2": "10",
+    "answr_3": "Error",
+    "answr_4": "None of the above",
+    "right_answr": "55"
+  },
+  {
+    "title": "Which operator is used to compare 2 values for equality in JS?",
+    "answr_1": "==",
+    "answr_2": "===",
+    "answr_3": "!=",
+    "answr_4": "!==",
+    "right_answr": "==="
+  },
+  {
+    "title": "Which statement is used to exit a loop in JavaScript?",
+    "answr_1": "continue",
+    "answr_2": "break",
+    "answr_3": "exit",
+    "answr_4": "stop",
+    "right_answr": "break"
+  },
+  {
+    "title": "What is the result of the following expression: typeof NaN?",
+    "answr_1": "number",
+    "answr_2": "NaN",
+    "answr_3": "undefined",
+    "answr_4": "None of the above",
+    "right_answr": "number"
+  },
+  {
+    "title": "To round a number to the nearest integer in JavaScript?",
+    "answr_1": "Math.ceil()",
+    "answr_2": "Math.floor()",
+    "answr_3": "Math.round()",
+    "answr_4": "None of the above",
+    "right_answr": "Math.round()"
+  }
+]

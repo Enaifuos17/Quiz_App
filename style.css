@@ -5,13 +5,10 @@
 :root {
   --bg-color: #f3f3f3;
   --bg-color2: #f8f8f8;
-  /* --color1: rgb(13, 93, 168); */
-  /* --color1: rgb(54, 139, 218); */
   --color1: #0077c0;
   --color2: #00ab66;
   --color3: #ffa500;
   --color4: #ef0107;
-  /* --color1: rgb(0 119 192 / 70%); */
 }
 
 body {
@@ -138,7 +135,6 @@ body {
   position: relative;
   top: -1px;
   /* kan kayban b7ala nazl shwiya */
-  /*  */
 }
 
 .quiz-app .submit-button {
@@ -243,26 +239,32 @@ body {
 /* footer */
 
 footer {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
   background-color: #d6d6d6;
   color: #000;
   text-align: center;
-  width: fit-content;
-  margin: auto;
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 6px 35px;
   font-family: cursive;
   border-end-end-radius: 15px;
   border-start-start-radius: 15px;
-  /* position: fixed;
-  bottom: 0;
-  right: 50%; */
 }
+
+/* * ----- */
+@media (max-width: 767px) {
+  footer {
+    padding: 6px 15px;
+  }
+}
+/* * ----- */
 
 footer img {
   width: 30px;
-  position: absolute;
-  bottom: 15px;
-  margin-left: 3px;
+  position: fixed;
+  bottom: 2px;
+  margin-left: 5px;
 }
 
 /* * ----- */

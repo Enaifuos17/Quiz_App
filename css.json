@@ -1,0 +1,89 @@
+{
+  "CSS": [
+    {
+      "question": "What does CSS stand for?",
+      "options": [
+        "Cascading Style Sheets",
+        "Colorful Style Sheets",
+        "Creative Style Sheets",
+        "None of the above"
+      ],
+      "answer": "Cascading Style Sheets"
+    },
+    {
+      "question": "What is the correct CSS syntax for changing the font color?",
+      "options": [
+        "font-color: red;",
+        "color: red;",
+        "text-color: red;",
+        "font-style: red;"
+      ],
+      "answer": "color: red;"
+    },
+    {
+      "question": "Which CSS property is used to change the background color?",
+      "options": ["color", "bgcolor", "background-color", "None of the above"],
+      "answer": "background-color"
+    },
+    {
+      "question": "What is the correct CSS syntax for making all the text bold?",
+      "options": [
+        "text-weight: bold;",
+        "bold: all;",
+        "font-weight: bold;",
+        "All of the above"
+      ],
+      "answer": "font-weight: bold;"
+    },
+    {
+      "question": "Which CSS property is used to set the text size?",
+      "options": ["font-size", "text-size", "size", "None of the above"],
+      "answer": "font-size"
+    },
+    {
+      "question": "What is the correct CSS syntax for making a hyperlink look like a button?",
+      "options": [
+        "a {button-style: true;}",
+        "a {button: true;}",
+        "a {text-decoration: none; display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white;}",
+        "None of the above"
+      ],
+      "answer": "a {text-decoration: none; display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white;}"
+    },
+    {
+      "question": "Which CSS property is used to set the spacing between lines?",
+      "options": [
+        "line-spacing",
+        "line-height",
+        "spacing",
+        "None of the above"
+      ],
+      "answer": "line-height"
+    },
+    {
+      "question": "What is the correct CSS syntax for centering a div element horizontally?",
+      "options": [
+        "div {center: horizontal;}",
+        "div {text-align: center;}",
+        "div {horizontal-align: center;}",
+        "div {align: center;}"
+      ],
+      "answer": "div {text-align: center;}"
+    },
+    {
+      "question": "Which CSS property is used to add shadows to text?",
+      "options": ["text-shadow", "box-shadow", "shadow", "None of the above"],
+      "answer": "text-shadow"
+    },
+    {
+      "question": "What is the correct CSS syntax for adding a border to an element?",
+      "options": [
+        "border: 1px solid black;",
+        "border-style: solid; border-width: 1px; border-color: black;",
+        "element-border: 1px solid black;",
+        "None of the above"
+      ],
+      "answer": "border: 1px solid black;"
+    }
+  ]
+}

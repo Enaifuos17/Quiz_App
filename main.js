@@ -9,7 +9,7 @@ let resultsContainer = document.querySelector(".quiz-app .results");
 let countdownElement = document.querySelector(".quiz-app .bullets .countdown");
 console.log(submitButton);
 
-// set options
+// * set some other variables options
 let currentIndex = 0;
 let totalRightAnswers = 0;
 let coundDownInterval;
@@ -19,11 +19,11 @@ function getQuestions() {
 
   myRequest.onreadystatechange = function () {
     if (this.readyState === 4 && this.status === 200) {
-      // console.log(this.responseText); // as text
+      // this.responseText --> as a TEXT
       let questionsObj = JSON.parse(this.responseText);
-      console.log(questionsObj);
+
+      // object's length
       let questionsCount = questionsObj.length;
-      console.log(questionsCount);
 
       // create bullets + set questions count
       createBullets(questionsCount);
@@ -65,13 +65,15 @@ function getQuestions() {
     }
   };
 
-  myRequest.open("GET", "questions.json", true);
+  myRequest.open("GET", "js.json", true);
   myRequest.send();
 }
 
 getQuestions();
 
-// * Function that creates bullets on how many questions we have
+// * --------------------------------------------------------------------------------------------------------
+
+// Function that creates bullets on how many questions we have
 function createBullets(numQ) {
   countSpan.innerHTML = numQ;
 
@@ -90,6 +92,9 @@ function createBullets(numQ) {
   }
 }
 
+// * --------------------------------------------------------------------------------------------------------
+
+// function that append questions from the json file and display them
 function addQuestionsData(obj, count) {
   // * continue while there still questions
   // count is the length of obj
@@ -146,6 +151,9 @@ function addQuestionsData(obj, count) {
   }
 }
 
+// * --------------------------------------------------------------------------------------------------------
+
+// function that checks if the choosenAnswer is the right one, and increase a totalRightAnswers
 function checkAnswer(rightAnswer, count) {
   let answers = document.getElementsByName("question");
   let theChoosenAnswer;
@@ -161,9 +169,13 @@ function checkAnswer(rightAnswer, count) {
   }
 }
 
+// * --------------------------------------------------------------------------------------------------------
+
+// function that handle our bullets, coloring next bullet while moving to the next question
 function handleBullets() {
   let bulletsSpans = document.querySelectorAll(".bullets .spans span");
   let arrayOfSpans = Array.from(bulletsSpans); // create array from them
+  //
   arrayOfSpans.forEach((span, index) => {
     if (currentIndex === index) {
       span.className = "on";
@@ -171,6 +183,9 @@ function handleBullets() {
   });
 }
 
+// * --------------------------------------------------------------------------------------------------------
+
+// function that show results in the end of the quiz
 function showResults(count) {
   let theResults;
   // currentIndex === count ---> means that the questions are finished
@@ -197,6 +212,9 @@ function showResults(count) {
   }
 }
 
+// * --------------------------------------------------------------------------------------------------------
+
+// function that generates the countdown
 function countDown(duration, count) {
   // if there still questions
   if (currentIndex < count) {
@@ -213,7 +231,7 @@ function countDown(duration, count) {
       if (--duration < 0) {
         clearInterval(coundDownInterval);
         console.log("END");
-        submitButton.click();
+        submitButton.click(); // if the countdown 0 click and moves
       }
     }, 1000);
   }

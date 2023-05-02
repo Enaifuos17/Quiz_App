@@ -1,0 +1,224 @@
+{
+  "html": [
+    {
+      "title": "Why We Use <br> Element",
+      "answr_1": "To Make Text Bold",
+      "answr_2": "To Make Text Italic",
+      "answr_3": "To Add Breakline",
+      "answr_4": "To Create Horizontal Line",
+      "right_answr": "To Add Breakline"
+    },
+    {
+      "title": "Is <img> Element Has Attribute href",
+      "answr_1": "Yes",
+      "answr_2": "No Its For Anchor Tag <a>",
+      "answr_3": "All Elements Has This Attribute",
+      "answr_4": "Answer 1 And 3 Is Right",
+      "right_answer": "No Its For Anchor Tag <a>"
+    },
+    {
+      "title": "How Can We Make Element Text Bold",
+      "answr_1": "Putting It Inside <b> Tag",
+      "answr_2": "Putting It Inside <strong> Tag",
+      "answr_3": "Customizing It With Font-Weight Property In CSS",
+      "answr_4": "All Answers Are Right",
+      "right_answr": "All Answers Are Right"
+    },
+    {
+      "title": "What Is The Right Hierarchy For Creating Part Of Page",
+      "answr_1": "<h2> Then <p> Then <h1> Then <p> Then <h3> Then <p> Then <img>",
+      "answr_2": "<h1> Then <p> Then <h3> Then <p> Then <h2> Then <p> Then <img>",
+      "answr_3": "<h2> Then <p> Then <h3> Then <p> Then <h1> Then <p> Then <img>",
+      "answr_4": "All Solutions Are Wrong",
+      "right_answr": "All Solutions Are Wrong"
+    },
+    {
+      "title": "How Can We Include External Page Inside Our HTML Page",
+      "answr_1": "By Using Include in HTML",
+      "answr_2": "By Using Load In HTML",
+      "answr_3": "By Using iFrame Tag",
+      "answr_4": "All Solutions Are Wrong",
+      "right_answr": "By Using iFrame Tag"
+    },
+    {
+      "title": "What Is The Tag That Not Exists in HTML",
+      "answr_1": "<object>",
+      "answr_2": "<basefont>",
+      "answr_3": "<abbr>",
+      "answr_4": "All Tags Are Exists in HTML",
+      "right_answr": "All Tags Are Exists in HTML"
+    },
+    {
+      "title": "How We Specify Document Type Of HTML5 Page",
+      "answr_1": "<DOCTYPE html>",
+      "answr_2": "<DOCTYPE html5>",
+      "answr_3": "<!DOCTYPE html>",
+      "answr_4": "<!DOCTYPE html5>",
+      "right_answr": "<!DOCTYPE html>"
+    },
+    {
+      "title": "What Is The Element Thats Not Exists in HTML5 Semantics",
+      "answr_1": "<article>",
+      "answr_2": "<section>",
+      "answr_3": "<blockquote>",
+      "answr_4": "<aside>",
+      "right_answr": "<blockquote>"
+    },
+    {
+      "title": "In HTML Can We Use This Way To Add Attributes",
+      "answr_1": "<div class='class-name'>",
+      "answr_2": "<div class=class-name>",
+      "answr_3": "<div class=\"class-name\">",
+      "answr_4": "All Are Right",
+      "right_answr": "All Are Right"
+    }
+  ],
+  "css": [
+    {
+      "title": "What does CSS stand for?",
+      "answr_1": "Cascading Style Sheets",
+      "answr_2": "Colorful Style Sheets",
+      "answr_3": "Creative Style Sheets",
+      "answr_4": "None of the above",
+      "right_answr": "Cascading Style Sheets"
+    },
+    {
+      "title": "What is the correct CSS syntax for changing the font color?",
+      "answr_1": "font-color: red;",
+      "answr_2": "color: red;",
+      "answr_3": "text-color: red;",
+      "answr_4": "font-style: red;",
+      "right_answer": "color: red;"
+    },
+    {
+      "title": "Which CSS property is used to change the background color?",
+      "answr_1": "color",
+      "answr_2": "bgcolor",
+      "answr_3": "background-color",
+      "answr_4": "None of the above",
+      "right_answr": "background-color"
+    },
+    {
+      "title": "What is the correct CSS syntax for making all the text bold?",
+      "answr_1": "text-weight: bold;",
+      "answr_2": "bold: all;",
+      "answr_3": "font-weight: bold;",
+      "answr_4": "All of the above",
+      "right_answr": "font-weight: bold;"
+    },
+    {
+      "title": "Which CSS property is used to set the text size?",
+      "answr_1": "font-size",
+      "answr_2": "text-size",
+      "answr_3": "size",
+      "answr_4": "None of the above",
+      "right_answr": ""
+    },
+    {
+      "title": "What is the correct CSS syntax for making a hyperlink look like a button?",
+      "answr_1": "a {button-style: true;}",
+      "answr_2": "a {button: true;}",
+      "answr_3": "a {text-decoration: none; display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white;}",
+      "answr_4": "None of the above",
+      "right_answr": "a {text-decoration: none; display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white;}"
+    },
+    {
+      "title": "Which CSS property is used to set the spacing between lines?",
+      "answr_1": "line-spacing",
+      "answr_2": "line-height",
+      "answr_3": "spacing",
+      "answr_4": "lines-space",
+      "right_answr": "line-height"
+    },
+    {
+      "title": "What is the correct CSS syntax for centering a div element horizontally?",
+      "answr_1": "div {center: horizontal;}",
+      "answr_2": "div {text-align: center;}",
+      "answr_3": "div {horizontal-align: center;}",
+      "answr_4": "div {align: center;}",
+      "right_answr": "div {text-align: center;}"
+    },
+    {
+      "title": "Which CSS property is used to add shadows to text?",
+      "answr_1": "text-shadow",
+      "answr_2": "box-shadow",
+      "answr_3": "shadow",
+      "answr_4": "None of the above",
+      "right_answr": "text-shadow"
+    }
+  ],
+  "js": [
+    {
+      "title": "What Is The Extension For A JavaScript File",
+      "answr_1": ".jvs",
+      "answr_2": ".js",
+      "answr_3": ".javascript",
+      "answr_4": "All Answers Are Right",
+      "right_answr": ".js"
+    },
+    {
+      "title": "What does JavaScript do?",
+      "answr_1": "Adds interactivity to web pages",
+      "answr_2": "Creates server-side applications",
+      "answr_3": "Performs calculations",
+      "answr_4": "All Answers Are Right",
+      "right_answer": "Adds interactivity to web pages"
+    },
+    {
+      "title": "Which is the correct syntax for a JavaScript comment?",
+      "answr_1": "// This is a comment",
+      "answr_2": "<!-- This is a comment -->",
+      "answr_3": "'This is a comment'",
+      "answr_4": "/* This is a comment */",
+      "right_answr": "// This is a comment"
+    },
+    {
+      "title": "Which keyword is used to declare a variable in JavaScript?",
+      "answr_1": "var",
+      "answr_2": "let",
+      "answr_3": "const",
+      "answr_4": "All Answers Are Right",
+      "right_answr": "All Answers Are Right"
+    },
+    {
+      "title": "What is the result of the following expression: '5' + 5?",
+      "answr_1": "55",
+      "answr_2": "10",
+      "answr_3": "Error",
+      "answr_4": "None of the above",
+      "right_answr": "55"
+    },
+    {
+      "title": "Which operator is used to compare two values for equality in JavaScript?",
+      "answr_1": "==",
+      "answr_2": "===",
+      "answr_3": "!=",
+      "answr_4": "!==",
+      "right_answr": "==="
+    },
+    {
+      "title": "Which statement is used to exit a loop in JavaScript?",
+      "answr_1": "continue",
+      "answr_2": "break",
+      "answr_3": "exit",
+      "answr_4": "stop",
+      "right_answr": "break"
+    },
+    {
+      "title": "What is the result of the following expression: typeof NaN?",
+      "answr_1": "number",
+      "answr_2": "NaN",
+      "answr_3": "undefined",
+      "answr_4": "None of the above",
+      "right_answr": "number"
+    },
+    {
+      "title": "Which function is used to round a number to the nearest integer in JavaScript?",
+      "answr_1": "Math.ceil()",
+      "answr_2": "Math.floor()",
+      "answr_3": "Math.round()",
+      "answr_4": "None of the above",
+      "right_answr": "Math.round()"
+    }
+  ]
+}
